@@ -98,6 +98,10 @@ string Alice::visuals() const
 	return toReturn;
 }
 
+void Alice::showArsenal() const {
+	this->myWeapons.showArsenal();
+}
+
 void Alice::addWepon(weapon* toAdd) {
 	myWeapons.addWeapon(toAdd);
 }
