@@ -51,6 +51,7 @@ void MazeVizualizer::showMazeInfo(int level) const {
 
 	std::cout << std::endl << "PRESS h TO HIDE THIS INFO OR SHOW IT AGAIN!"<<std::endl;
 	std::cout << std::endl << "PRESS x TO EXIT THE GAME!"<<std::endl;
+	std::cout << std::endl << "PRESS v TO SHOW ARSENAL"<<std::endl;
 }
 
 pair<int, int> MazeVizualizer::aliceCoordinates() const {
