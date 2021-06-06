@@ -24,8 +24,6 @@ private:
 	void catchWeaponSuperPower(bool& caught, bool& moved);
 	void moveAliceRandomly(bool& moved);
 	void moveAliceCloserToTheEnd();
-
-	void printIntro() const; //TODO
 public:
 	engine();
 	void run();
