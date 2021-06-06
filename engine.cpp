@@ -61,6 +61,10 @@ void engine::run() {
 				std::cout << "Bye :(";
 				exit(1);
 				break;
+			case 'v':
+				this->update(levelReached);
+				this->viz.getAlice().showArsenal();
+				break;
 			default:
 				break;
 			}
