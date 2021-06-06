@@ -203,7 +203,3 @@ void engine::moveAliceCloserToTheEnd() {
 
 	if (found) this->viz.getAlice().setPos(A.first + move, A.second);
 }
-
-
-void engine::printIntro() const {
-}
