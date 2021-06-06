@@ -46,6 +46,7 @@ public:
 
 	//visuals:
 	string visuals() const;
+	void showArsenal() const;
 
 	//weapon:
 	void addWepon(weapon* toAdd);
