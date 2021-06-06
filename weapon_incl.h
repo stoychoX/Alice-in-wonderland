@@ -1,0 +1,7 @@
+#include"base.h"
+#include"drink_me.h"
+#include"eat_me.h"
+#include"rose.h"
+#include"fan.h"
+#include"hat.h"
+#include"teleport.h"
