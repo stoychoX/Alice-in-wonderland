@@ -180,10 +180,10 @@ void Maze::free() {
 	this->data.clear();
 
 	for (auto _arg : monstersInMaze)
-		delete[] _arg;
+		delete _arg;
 
 	for (auto _arg : weaponsInMaze)
-		delete[] _arg;
+		delete _arg;
 
 	this->monstersInMaze.clear();
 	this->weaponsInMaze.clear();
