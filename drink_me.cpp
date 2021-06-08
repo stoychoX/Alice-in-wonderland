@@ -3,7 +3,7 @@
 drink_me::drink_me() : weapon(10) {}
 
 void drink_me::represent() const {
-	std::cout << "Drink me cookie!" << std::endl;
+	std::cout << "Drink me poison!" << std::endl;
 	if (this->isUsed())
 		std::cout << " - Used!" << std::endl;
 }
