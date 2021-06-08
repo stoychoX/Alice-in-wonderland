@@ -3,7 +3,7 @@
 eat_me::eat_me() : weapon(40) {}
 
 void eat_me::represent() const {
-	std::cout << "Eat me poison!" << std::endl;
+	std::cout << "Eat me cookie!" << std::endl;
 	if (this->isUsed())
 		std::cout << " - Used!" << std::endl;
 }
