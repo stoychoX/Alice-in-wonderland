@@ -1,6 +1,8 @@
 #include "rose.h"
+#include<time.h>
 
-void rose::setRose() { //TODO -> real rand
+void rose::setRose() { 
+	srand(time(NULL));
 	int ind = rand() % 2;
 	this->_rose = ind;
 }
